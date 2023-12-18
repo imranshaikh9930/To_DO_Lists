@@ -1,0 +1,44 @@
+@media screen and (max-width: 592px) {
+  .container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .tasks {
+    width: 100%;
+    height: 50%;
+  }
+  .para p {
+    flex: 1;
+  }
+  .btn-container {
+    width: 50%;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 944px) {
+  .input_task {
+    flex-direction: column;
+    width: 100%;
+  }
+  #dueDate,
+  #input,
+  .addTask {
+    width: 50%;
+  }
+  .tasks {
+    width: 100%;
+    flex: 1;
+  }
+  .para {
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+  }
+  strong {
+    font-size: 16px;
+  }
+  small {
+    max-width: 100%;
+    font-size: 10px;
+  }
+}
