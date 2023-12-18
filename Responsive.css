@@ -11,12 +11,16 @@
     flex: 1;
   }
   strong {
-    margin-left: 2rem;
+
+    display: flex;
+    justify-content:center;
     width: 100%;
   }
   small {
     text-align: center;
-    /* margin: 0 auto; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
     width: 100%;
   }
 }
