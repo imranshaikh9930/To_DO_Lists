@@ -10,10 +10,17 @@
   .para p {
     flex: 1;
   }
-  /* .btn-container {
-    width: 50%;
-    flex-direction: column;
-  } */
+strong{
+    margin-left: 2rem;
+    width: 100%;
+    
+}
+ small{
+    text-align: center;
+    /* margin: 0 auto; */
+    width: 100%;
+  }
+ 
 }
 @media screen and (max-width: 944px) {
   .input_task {

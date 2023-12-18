@@ -108,9 +108,8 @@ function getData() {
           taskPara.innerHTML = `
           
           <strong>${task.input}</strong> <br/>
-            <small>Status: ${task.priority}</small>&#160 &#160
-         
-            <small>Status: ${task.status}</small>
+            <small>Priority: ${task.priority}</small>&#160 &#160
+          <small>Status: ${task.status}</small>
              `;
         }
 
